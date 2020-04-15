@@ -1,0 +1,148 @@
+body {
+background-color: rgb(180,180,180);
+font-family: sans-serif;
+width:100%
+}
+#cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: black 1px solid;
+  border-radius: 10px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  box-shadow: black 2px 2px 5px;
+}
+#conteudo{
+
+background-color: white;
+margin-left:5%;
+margin-right: 5%;
+padding: 2%;
+}
+#imggeral{
+  background-image: url("imagens/covid.jpg");  
+  height:300px;
+  text-align: center;
+}
+#msg{
+padding-top: 10%;
+}
+a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  text-decoration: unset ;
+  font-size: 20px;
+  
+ 
+}
+a:hover {
+  background-color: blue;
+}
+#v{
+  text-decoration: unset ;
+}
+#v:hover {
+  background-color: beige
+}
+#navegacao{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#noticiasemdestaque{
+  font-family: Arial, Helvetica, sans-serif;
+  display:flex;
+  justify-content: center;
+  text-shadow: royalblue 1px 1px 5px;
+}
+#noticias{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.noticiasdestaque{
+  
+ border: gray 1px solid;
+ box-shadow: gray 2px 2px 5px;
+ margin-left: 10pt;
+ margin-right: 5px;
+ margin-top: 15px;
+ width:100%;
+
+}
+.noticias{
+  display:flex;
+  margin-left: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+;
+}
+.videos{
+  margin-left: 10px;
+}
+.videos1{
+  margin-left: 10px;
+  height:50%
+}
+h3{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+h4{
+  color: brown;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+p{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ font-weight: bold;
+ margin-left: 10px;
+ margin-right: 10px;
+ text-align: center;
+ 
+}
+#rodape{
+  
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(110,110,110);
+  margin-top: 30px;
+ 
+}
+
+#text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+#li{
+  justify-content: space-between;
+}
+#name{
+  margin-left: 20px;
+}
+#lname{
+  margin-left: 40px;
+}
+#fone{
+  margin-left: 55px;
+}
+#email{
+  margin-left: 83px;
+}
+#at{
+  width:170px
+}
+#sobre{
+  display: flex;
+  justify-content:center  
+  
+}
+#sob{
+  padding-top: 50PX;
+}
